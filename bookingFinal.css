@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+table{
+    margin-left: 350px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    padding: 4px 12px;
+    text-decoration: none;
+    line-height: 20px;
+    -webkit-border-radius: 0px;
+    color: #fff;
+    border: 0px solid #02aeff;
+    background: #02aeff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    
+    
+}
+
+.tdata{
+    text-align: center;
+    background-color:white;
+    color: black;
+}
+
+fieldset{
+    float: inline-start;
+    background-color: aliceblue;
+    width: 50%;
+    margin: auto;
+    border-color: saddlebrown;
+    
+}
+
+legend{
+    background-color: rgb(59, 108, 232);
+    color: black;
+    padding: 5px 10px;
+}
+
+label{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button{
+   
+    background-color: #02aeff;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    border: 0;
+}
+
+button:hover{
+    background-color: rgb(249, 32, 184);
+    color: white;
+}
+
+
+.proceed{
+   
+    margin: 20px;
+    margin-left: 65%;
+}
+.save{
+    align-items: center;
+    background-color: #02aeff;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    border: 0;
+    margin: 10px;
+}
+
+.save:hover{
+    background-color: rgb(249, 32, 184);
+    color: white;
+}

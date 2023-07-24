@@ -1,0 +1,106 @@
+body{
+    background-repeat: no-repeat;
+    background-image: url('sea.jpeg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.departure-list{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.departure-monthlist, .departure-heading{
+    display: inline-block
+}
+
+.departure-list .departure-monthlist{
+    margin-left: 410px;
+}
+
+.departure-list #months{
+    width: 150px;
+    height: 34px;
+    border: 1px solid #e6edf5
+}
+.departure-heading h2{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 85px;
+
+}
+
+thead tr th{
+    text-align: start;
+    text-transform: uppercase;
+}
+
+tbody{
+    font-size: 14px;
+    vertical-align: baseline;
+    font-weight: normal;
+    
+}
+
+table{
+    margin-left: 80px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+table td, table th{
+    border-bottom: 1px dotted;
+    padding: 9px;
+}
+
+table tr:hover{
+    background-color: #ddd;
+}
+
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #e7f1f3;
+}
+
+.table-container .btn-book{
+    width: auto;
+    display: inline-block;
+    padding: 4px 12px;
+    text-decoration: none;
+    line-height: 20px;
+    -webkit-border-radius: 0px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border: 0px solid #02aeff;
+    background: #02aeff;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+td a{
+    background-color: transparent;
+    text-decoration: none;
+    color: #333e57;
+}
+
+@media screen and (max-width: 600px){
+    #months{
+        width: 100%;
+        margin: 0;
+    }
+    
+}
+
+button{
+    margin-left: 40px;
+    margin-right: 40px;
+}

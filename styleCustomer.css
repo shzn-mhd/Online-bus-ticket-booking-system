@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
+
+            body {
+                margin: 0%;
+                font-family: 'Nunito Sans', sans-serif;
+            }
+
+            * {
+                box-sizing: border-box;
+
+            }
+
+            .bg-image {
+                background-image: url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1140&q=80s');
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100vh;
+                width: 100vw;
+                position: fixed;
+                filter: blur(75px);
+                -webkit-filter: blur(75px);
+                margin: 0%;
+                padding: 0%;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: row;
+                position: absolute;
+                background-color: white;
+                margin-left: 12vw;
+                margin-top: 13vh;
+                height: 74vh;
+                width: 76vw;
+            }
+
+            .left {
+                background-image: url("https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+                width: 35%;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                color: white;
+                font-weight: 300;
+            }
+
+            .yellow {
+                height: 100%;
+                background-color: #ffc402;
+                opacity: 0.8;
+                display: flex;
+                flex-direction: column;
+                /* justify-content: space-between; */
+                align-items: start;
+                padding-left: 20%;
+                padding-right: 20%;
+                padding-top: 10%;
+                padding-bottom: 10%;
+            }
+
+            h1 {
+                font-weight: 200;
+                font-size: 3em;
+            }
+
+            h2 {
+                margin-top:100px;
+            }
+
+            .right {
+                width: 65%;
+                padding-top: 170px;
+                padding-left:70px;
+                margin-bottom: 20px;
+                margin-top: 20px;
+                overflow: hidden;
+                overflow-y: scroll;
+            }
+
+            .right-e {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                width: 100%;
+                height: 100%;
+                
+            }
+
+            form {
+                margin-top: 50px;
+                display: flex;
+                flex-direction: column;
+                width: 80%;
+                height: 100%;
+                justify-content: space-evenly;
+                
+            }
+
+            form label {
+                font-weight: 800;
+                color: gray;
+                text-transform: uppercase;
+                font-size: 0.8em;
+                letter-spacing: 0.1em;
+                margin-bottom: 0.4em;
+            }
+
+            #uname,#email,#cpass,#pass,#nic,#date,#origin,#destination{
+                border: none;
+                border-bottom: 1px solid grey;
+                width: 90%;
+                margin-bottom: 2.0em;
+            }
+
+            a,
+            a:link,i {
+                text-decoration: none;
+                color: rgb(16, 199, 16);
+            }
+            i{
+                transform: translate(-18px,-7px);
+            }
+            button {
+                background-color: rgb(16, 199, 71);
+                color: white;
+                border: none;
+                /*padding: 10px 40px 10px 40px; */
+                font-size: 1.0em;
+                height: 1.9em;
+                width: 7.0em;
+                margin-left: 10px;
+            }
+
+            button:hover{
+                background-color: yellowgreen;
+            }
+
+            form p {
+                color: grey;
+            }
+
+            .buttons {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 40%;
+            }
+
+            .tc {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 80%;
+            }
